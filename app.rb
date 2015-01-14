@@ -10,7 +10,7 @@ def run
   number = gets.chomp
   puts "Yo when do you expire?"
   expiration = gets.chomp.split('/')
-  charge(number, expiration.first, expiration.last)
+  do_charge(number, expiration.first, expiration.last)
 end
 
 run
